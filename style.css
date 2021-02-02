@@ -1,4 +1,8 @@
 
+html, body {
+    overflow-x: hidden;
+}
+
 #home {
     background: linear-gradient(to right, #ffc107, #f0b607);
     background: -webkit-linear-gradient(to right, #ffc107, #f0b607);
@@ -26,4 +30,20 @@ section.caixa a {
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
+}
+
+/*
+    ______________ Media Queries ______________
+*/
+
+@media (max-width: 575.98px) {
+    #home h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #home h1 {
+        font-size: 3em;
+    }
 }
